@@ -67,7 +67,7 @@ export default class HighlightCode extends Component {
 
         { !canCopy ? null :
           <div className="copy-to-clipboard">
-            <CopyToClipboard text={value}><button/></CopyToClipboard>
+            <CopyToClipboard text={value}><button type="button" /></CopyToClipboard>
           </div>
         }
 

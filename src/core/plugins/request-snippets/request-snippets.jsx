@@ -90,6 +90,7 @@ export class RequestSnippets extends React.Component {
               onClick={() => this.setState({expanded: !expanded})}
             >Snippets</h4>
             <button
+              type="button"
               onClick={() => this.setState({expanded: !expanded})}
               style={{ border: "none", background: "none" }}
               title={expanded ? "Collapse operation": "Expand operation"}

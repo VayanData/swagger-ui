@@ -119,7 +119,7 @@ export class Button extends React.Component {
   }
 
   render() {
-    return <button {...this.props} className={xclass(this.props.className, "button")} />
+    return <button {...this.props} type="button" className={xclass(this.props.className, "button")} />
   }
 
 }

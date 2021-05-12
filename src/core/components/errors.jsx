@@ -39,7 +39,7 @@ export default class Errors extends React.Component {
       <pre className="errors-wrapper">
         <hgroup className="error">
           <h4 className="errors__title">Errors</h4>
-          <button className="btn errors__clear-btn" onClick={ toggleVisibility }>{ isVisible ? "Hide" : "Show" }</button>
+          <button type="button" className="btn errors__clear-btn" onClick={ toggleVisibility }>{ isVisible ? "Hide" : "Show" }</button>
         </hgroup>
         <Collapse isOpened={ isVisible } animated >
           <div className="errors">

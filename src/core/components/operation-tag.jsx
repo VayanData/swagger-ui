@@ -105,6 +105,7 @@ export default class OperationTag extends React.Component {
             </div>
 
             <button
+              type="button"
               className="expand-operation"
               title={showTag ? "Collapse operation": "Expand operation"}
               onClick={() => layoutActions.show(isShownKey, !showTag)}>

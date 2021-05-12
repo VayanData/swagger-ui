@@ -33,7 +33,7 @@ export default class Curl extends React.Component {
       <div className="curl-command">
         <h4>Curl</h4>
         <div className="copy-to-clipboard">
-            <CopyToClipboard text={curl}><button/></CopyToClipboard>
+            <CopyToClipboard text={curl}><button type="button" /></CopyToClipboard>
         </div>
         <div>
           {curlBlock}
