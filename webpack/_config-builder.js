@@ -107,6 +107,12 @@ export default function buildConfig(
             // json-react-schema/deeper depends on buffertools, which fails.
             buffertools: true,
             esprima: true,
+            "prop-types": true,
+            redux: true,
+            reselect: true,
+            react: true,
+            "react-dom": true,
+            "react-redux": true
           }
         : (context, request, cb) => {
             // webpack injects some stuff into the resulting file,
